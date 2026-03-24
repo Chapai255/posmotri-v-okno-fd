@@ -97,7 +97,7 @@ ol {
   display: flex;
   align-items: start;
   justify-content: space-between;
- /* margin-bottom: 10px; */
+
 
 }
 
@@ -120,7 +120,7 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 5px;
+  gap: 3px;
   cursor: pointer;
   padding-top: 5px;
 }

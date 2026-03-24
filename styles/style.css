@@ -103,7 +103,7 @@ ol {
 
 .search-form__fieldset {
   border: none;
-  margin-bottom: 2px; /* применить, если автотест не примет общий марджин для серч форм */
+
 
 }
 
@@ -111,8 +111,6 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif ;
   font-weight: 400;
   font-size: 18px;
-  line-height: 100%;
-  font-style: normal;
   margin-bottom: 5px;
 }
 
@@ -120,9 +118,8 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 10px;
+  gap: 5px;
   cursor: pointer;
-  padding-top: 5px;
 }
 
 
@@ -135,18 +132,21 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-  color: #fff;
-  border: 1px solid #fff;
-  border-left: none;
-  border-right: none;
-
-  background-color: transparent;
   appearance: none;
-  outline: none;
+  width: 230px;
+  color: #fff;
+}
+
+
+  .search-form__textfield[type="text"] {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    padding: 2.5px 14px 2.5px 0;
+    background-color: transparent;
 }
 
 .search-form__textfield::placeholder {

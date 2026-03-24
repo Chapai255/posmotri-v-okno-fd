@@ -177,7 +177,7 @@ ol {
   opacity: 0;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after  {
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   opacity: 1;
 }
 
@@ -232,10 +232,6 @@ ol {
   background-color: #545050;
 }
 
-.content__video-card-description-container {
-  width: 196px;
-  height: 103px;
-}
 
 .content__video-card-title {
   font-family: Oswald, sans-serif;
@@ -291,6 +287,8 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  width: 196px;
+  height: 103px;
 }
 
 .content__video-card-thumbnail {

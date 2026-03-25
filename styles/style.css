@@ -120,7 +120,7 @@ ol {
 .search-form__label:has(:focus-visible) {
   outline: 2px solid #fff;
 }
-.search-form__label:hover .search-form__label-text{
+.search-form__label:hover .search-form__label-text {
  text-decoration: underline;
 }
 
